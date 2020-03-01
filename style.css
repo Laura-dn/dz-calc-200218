@@ -1,0 +1,41 @@
+@font-face {
+    font-family: DIG;
+    src: url(DIG.ttf);
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+}
+
+.calc {
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+}
+
+.calc {
+    border: 3px solid red;
+    border-collapse: collapse;
+}
+
+td {
+    width: 25%;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#iFace {
+    font-family: DIG;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
